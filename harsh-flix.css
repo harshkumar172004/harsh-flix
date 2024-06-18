@@ -1,0 +1,460 @@
+#back::before {
+    background-image: url(images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    z-index: -10;
+    opacity: 10;
+    border-bottom: 8px solid rgb(62, 61, 61);
+
+    /* opacity: 0.8; */
+}
+
+#back {
+    height: 700px;
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* navbar */
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: -80px 80px 40px rgba(0, 0, 0, 0.389);
+    background-color: rgba(0, 0, 0, 0.389);
+}
+
+#logo img {
+    height: 100px;
+    width: 200px;
+    margin-right: 700px;
+    /* margin-top: 50px; */
+}
+
+nav #select {
+    border: 2px solid white;
+    display: flex;
+    align-items: right;
+    color: white;
+    width: 122.4px;
+    height: 32px;
+}
+
+.select {
+    margin: 0px 0 0 0px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+}
+
+#lang {
+    width: 80.4px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+}
+
+.click {
+    color: black;
+
+}
+
+#btn1 {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 79.99px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 17px;
+    align-items: center;
+    /* padding: 2px; */
+    padding-left: 15px;
+    padding-bottom: 4px;
+}
+
+#btn1:hover {
+    background-color: rgb(220, 5, 5);
+}
+
+.box2 {
+    width: 126.4px;
+    height: 32px;
+    display: flex;
+    gap: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    /* text-decoration: none; */
+}
+
+.cfont {
+    color: #fff;
+}
+
+                                                                  /* hadding1 */
+.hadding {
+    width: 907.28px;
+    height: 238.8px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.same {
+    margin-top: 15px;
+}
+
+.first {
+    color: white;
+
+
+}
+
+.first h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.first p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.first h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#email {
+    height: 56px;
+    width: 370.35px;
+    background-color: rgba(0, 0, 0, 0.675);
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+#btn2 {
+    width: 207.65px;
+    height: 56px;
+    font-size: 1.5rem;
+    font-weight: 790;
+    border-radius: 0.25rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#btn2:hover {
+    background-color: rgb(220, 5, 5);
+}
+
+/* https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png */
+
+                                                               /* hadding2 */
+.back2 {
+    width: 1519.2px;
+    height: 582.25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 8px solid rgb(62, 61, 61);
+}
+
+.hadding2 {
+    color: white;
+}
+
+.hadding2 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 579px;
+    height: 64px;
+}
+
+.hadding2 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 579px;
+    height: 64px;
+    margin-top: 16px;
+}
+
+.tv video {
+    width: 418px;
+    height: 450.25px;
+}
+
+.tv::before {
+    background-image: url(images/tv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 579px;
+    height: 434.25px;
+    top: 779px;
+    z-index: 1;
+    opacity: 10;
+    right: 91px;
+    /* border-bottom: 8px solid rgb(62, 61, 61); */
+}
+
+                                                          /* hadding3 */
+.back3 {
+    width: 1519.2px;
+    height: 582.25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 8px solid rgb(62, 61, 61);
+}
+
+.mobile {
+    width: 579px;
+    height: 500.25px;
+
+}
+
+.mobile::before {
+    background-image: url(images/mobile-0819.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    content: "";
+    position: absolute;
+    width: 579px;
+    height: 500.25px;
+    /* top: 300px; */
+    z-index: -1;
+    opacity: 10;
+}
+
+.small {
+    width: 316.7px;
+    height: 103.2px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 0.75rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 100px 0px 0px 50px; */
+    position: relative;
+    top: 348px;
+    left: 160px;
+
+}
+
+.small img {
+    width: 57.14px;
+    height: 80px;
+}
+
+.small #p2 {
+    color: #0071EB;
+}
+
+.mar {
+    margin: 0px 30px 0px 30px;
+}
+
+.hadding3 {
+    color: white;
+    width: 583px;
+    height: 233.6px;
+}
+
+.hadding3 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 579px;
+    height: 129.6;
+}
+
+.hadding3 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 579px;
+    height: 64px;
+}
+
+                                                                      /* hadding4 */
+.back4 {
+    width: 1519.2px;
+    height: 582.25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 8px solid rgb(62, 61, 61);
+}
+
+.hadding4 {
+    color: white;
+}
+
+.hadding4 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 579px;
+    height: 64px;
+}
+
+.hadding4 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 579px;
+    height: 64px;
+    margin-top: 16px;
+}
+
+.tv2 video {
+    width: 365px;
+    height: 500.25px;
+    /* margin-bottom: 40px; */
+}
+
+.tv2::before {
+    background-image: url(images/device-pile-in.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 579px;
+    height: 434.25px;
+    top: 2032px;
+    z-index: 1;
+    opacity: 10;
+    right: 91px;
+    /* border-bottom: 8px solid rgb(62, 61, 61); */
+}
+                                                                  /* .hadding5 */
+.back5{
+     width: 1519.2px;
+    height: 582.25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 8px solid rgb(62, 61, 61);
+}
+.child{
+    width: 579px;
+    height: 434.25px;
+}
+.hadding5 {
+    color: white;
+}
+
+.hadding5 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 579px;
+    height: 64px;
+}
+
+.hadding5 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 579px;
+    height: 64px;
+    margin-top: 16px;
+}
+/* hadding6 */
+.back6{
+    width: 1519.2px;
+    height: 930.4px;
+    border-bottom: 8px solid rgb(62, 61, 61);
+}
+.back6 h1{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 1170px;
+    height: 64.8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 45.6px;
+}
+.question{
+    margin: 45.6px 174.6px 0px 176.6px;
+}
+.ques{
+    width: 1170px;
+    height: 40.8px;
+    background-color: rgba(128, 128, 128, 0.252);
+    margin-bottom: 8px;
+    font-size: 25px;
+    color: #fff;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ques:hover{
+    background-color: rgba(128, 128, 128, 0.579);
+    cursor: pointer;
+}    
+.had{
+    margin-top: 45.6px;
+}
+.back6 p{
+    word-spacing: 5px;
+    width: 920px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 461.6px;
+}
+#email2{
+    margin-top: 20px;
+    margin-left: 490px;
+}
+                                                                  /* footer */
+.footer{
+    width: 1519.2px;
+    height: 267.6px;
+}
+table{
+    margin: 72px 126.6px 72px 126.6px;
+}
+.footer td{
+    height: 50px;
+    width: 1500px;
+    font-weight: 50;
+}
